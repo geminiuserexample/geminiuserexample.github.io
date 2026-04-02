@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GemX | Portfolio</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card-bg: #161b22;
+            --text: #c9d1d9;
+            --accent: #58a6ff;
+            --border: #30363d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1, h3 { color: #fff; margin-top: 0; }
+        
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover { text-decoration: underline; }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 25px 0;
+            justify-content: center;
+        }
+
+        .stats-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        ul { padding-left: 20px; margin-bottom: 0; }
+        li { margin-bottom: 8px; }
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border);
+            margin: 30px 0;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #8b949e;
+            text-align: center;
+            display: block;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <section class="card">
+        <h1>👋 Привет! Я GemX</h1>
+        <p>Я разработчик и специалист по техническим решениям. Сосредоточен на создании эффективного кода и работе с современными технологиями.</p>
+    </section>
+
+    <section class="card">
+        <h3>🛠 Стек технологий и навыки</h3>
+        <ul>
+            <li><strong>Разработка:</strong> Проектирование архитектуры приложений и написание серверных скриптов.</li>
+            <li><strong>Среда работы:</strong> Оптимизация рабочих процессов и использование производительного софта.</li>
+            <li><strong>Решение задач:</strong> Глубокая отладка и автоматизация систем.</li>
+        </ul>
+    </section>
+
+    <div class="stats-container">
+        <img src="https://github-statss-two.vercel.app/api?username=geminiuserexample&show_icons=true&theme=dark" alt="GitHub Stats">
+        <img src="https://github-statss-two.vercel.app/api/top-langs/?username=geminiuserexample&layout=compact&theme=dark" alt="Top Langs">
+    </div>
+
+    <hr>
+
+    <section class="card">
+        <h3>📫 Как со мной связаться</h3>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:geminiuser.example@gmail.com">geminiuser.example@gmail.com</a></li>
+            <li><strong>Дата рождения:</strong> 25 апреля (Телец ♉)</li>
+        </ul>
+    </section>
+
+    <span class="quote">«Фокус на логике, чистоте кода и результате».</span>
+</div>
+
+</body>
+</html>
